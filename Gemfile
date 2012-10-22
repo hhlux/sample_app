@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
 
@@ -21,6 +21,8 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+
+gem 'annotate', '2.5.0'
 
 group :test do
   gem 'capybara', '1.1.2'
